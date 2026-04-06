@@ -1,0 +1,13 @@
+{
+  "users": [
+    {"id": 1, "email": "admin@finance.com", "role": "admin"},
+    {"id": 2, "email": "analyst@test.com", "role": "analyst"},
+    {"id": 3, "email": "viewer@finance.com", "role": "viewer"}
+  ],
+  "records": [
+    {"id": 1, "user_id": 1, "amount": 5000.0, "type": "income", "category": "Salary", "date": "2024-01-01", "notes": "Monthly salary"},
+    {"id": 2, "user_id": 1, "amount": 1200.0, "type": "expense", "category": "Rent", "date": "2024-01-02", "notes": "Apartment rent"},
+    {"id": 3, "user_id": 2, "amount": 300.0, "type": "expense", "category": "Groceries", "date": "2024-01-03", "notes": "Weekly shopping"},
+    {"id": 4, "user_id": 3, "amount": 1500.0, "type": "income", "category": "Freelance", "date": "2024-01-04", "notes": "Project payment"}
+  ]
+}

@@ -27,8 +27,5 @@
       "src": "/(.*)",
       "dest": "app/main.py"
     }
-  ],
-  "env": {
-    "DATABASE_URL": "@vercel-postgres"
-  }
+  ]
 }
